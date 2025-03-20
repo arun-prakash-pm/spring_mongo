@@ -1710,3 +1710,170 @@ Java Model Exception: Error in Java Model (code 969): com.ap.demo.controller [in
 
 !ENTRY org.eclipse.jdt.core 4 969 2025-03-20 05:48:08.920
 !MESSAGE com.ap.demo.controller [in src/main/java [in employee_management]] does not exist
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 06:27:39.947
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:28:10.512
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YbyzJDZq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:28:10.514
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YbyzJDZq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:28:10.515
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:28:10.518
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YbyzJDZq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:40.332
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:40.579
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5849efe8[org.springframework.tooling.boot.ls:1.36.0.202206171137(id=567)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:40.583
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 06:36:43.206
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 06:36:48.627
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:54.877
+!MESSAGE Boot LS startup time from start to initialized: 14282ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.410
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xyMpCDfKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.416
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.419
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.432
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.438
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.441
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xyMpCDfK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.469
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.477
+!MESSAGE buffering callback sts4.classpath.xyMpCDfK employee_management false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:55.480
+!MESSAGE executing callback sts4.classpath.xyMpCDfK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:36:57.487
+!MESSAGE executing callback sts4.classpath.xyMpCDfK FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-20 06:36:57.488
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2025-03-20 06:40:13.539
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-20 06:40:13.539
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c3f6201,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@621f2fb5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:41:59.807
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:41:59.832
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:41:59.834
+!MESSAGE buffering callback sts4.classpath.xyMpCDfK employee_management false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:41:59.836
+!MESSAGE executing callback sts4.classpath.xyMpCDfK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:41:59.867
+!MESSAGE executing callback sts4.classpath.xyMpCDfK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:42:42.217
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:42:42.240
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:42:42.251
+!MESSAGE buffering callback sts4.classpath.xyMpCDfK employee_management false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:42:42.252
+!MESSAGE executing callback sts4.classpath.xyMpCDfK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:42:42.304
+!MESSAGE executing callback sts4.classpath.xyMpCDfK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:43:23.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:43:23.170
+!MESSAGE classpath=77 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:43:23.178
+!MESSAGE buffering callback sts4.classpath.xyMpCDfK employee_management false 77
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:43:23.184
+!MESSAGE executing callback sts4.classpath.xyMpCDfK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 06:43:23.299
+!MESSAGE executing callback sts4.classpath.xyMpCDfK SUCCESS [done]
