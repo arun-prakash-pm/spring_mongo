@@ -1,0 +1,16 @@
+package EmployeeRepository;
+
+import java.util.List;
+
+import com.example.demo.model.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+    
+    List<Employee> findAll();
+    
+    Employee findById(Long id);
+    
+    Employee save(Employee employee);
+    
+    void deleteById(Long id);
+}
